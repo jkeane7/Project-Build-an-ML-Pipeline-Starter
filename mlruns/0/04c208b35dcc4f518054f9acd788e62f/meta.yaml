@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/04c208b35dcc4f518054f9acd788e62f/artifacts
+end_time: 1726004290634
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04c208b35dcc4f518054f9acd788e62f
+run_name: sneaky-ox-565
+run_uuid: 04c208b35dcc4f518054f9acd788e62f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726004143758
+status: 3
+tags: []
+user_id: jkeane7

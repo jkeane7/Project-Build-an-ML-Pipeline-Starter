@@ -1,0 +1,17 @@
+2024-08-28 16:42:34,626 Minimum price: 10, Maximum price: 350
+2024-08-28 16:42:34,643 Preparing sklearn pipeline
+2024-08-28 16:42:34,644 Fitting
+Traceback (most recent call last):
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 295, in <module>
+    go(args)
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 78, in go
+    sk_pipe.fit(X_train, y_train)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 423, in fit
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 357, in _fit
+    self._validate_steps()
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 226, in _validate_steps
+    names, estimators = zip(*self.steps)
+ValueError: not enough values to unpack (expected 2, got 0)

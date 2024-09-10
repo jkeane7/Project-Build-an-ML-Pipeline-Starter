@@ -1,0 +1,33 @@
+2024-08-28 17:15:15,723 Minimum price: 10, Maximum price: 350
+2024-08-28 17:15:15,746 Preparing sklearn pipeline
+2024-08-28 17:15:15,747 Fitting
+Traceback (most recent call last):
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 301, in <module>
+    go(args)
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 78, in go
+    sk_pipe.fit(X_train, y_train)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 423, in fit
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 377, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/joblib/memory.py", line 312, in __call__
+    return self.func(*args, **kwargs)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 957, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/compose/_column_transformer.py", line 750, in fit_transform
+    self._validate_transformers()
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/compose/_column_transformer.py", line 439, in _validate_transformers
+    if not (hasattr(t, "fit") or hasattr(t, "fit_transform")) or not hasattr(
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/utils/_available_if.py", line 31, in __get__
+    if not self.check(obj):
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 667, in _can_transform
+    return self._final_estimator == "passthrough" or hasattr(
+  File "/home/jkeane7/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/sklearn/pipeline.py", line 321, in _final_estimator
+    estimator = self.steps[-1][1]
+IndexError: list index out of range

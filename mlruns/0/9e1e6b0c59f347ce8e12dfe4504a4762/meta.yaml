@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9e1e6b0c59f347ce8e12dfe4504a4762/artifacts
+end_time: 1726004169399
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e1e6b0c59f347ce8e12dfe4504a4762
+run_name: judicious-ox-105
+run_uuid: 9e1e6b0c59f347ce8e12dfe4504a4762
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726004152458
+status: 3
+tags: []
+user_id: jkeane7

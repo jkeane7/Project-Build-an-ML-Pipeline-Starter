@@ -17,8 +17,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder, FunctionTransformer
-
+from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer
+from sklearn.preprocessing import OneHotEncoder
 import wandb
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
@@ -75,11 +75,12 @@ def go(args):
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
     ######################################
+    sk_pipe.fit(X_train, y_train)
 
     # Compute r2 and MAE
     logger.info("Scoring")
     r_squared = sk_pipe.score(X_val, y_val)
-
+    #mae=absolute_error(y_val, y_pred)
     y_pred = sk_pipe.predict(X_val)
     mae = mean_absolute_error(y_val, y_pred)
 
@@ -95,20 +96,20 @@ def go(args):
     ######################################
     # Save the sk_pipe pipeline as a mlflow.sklearn model in the directory "random_forest_dir"
     # HINT: use mlflow.sklearn.save_model
-    signature = mlflow.models.infer_signature(X_val, y_pred)
-    mlflow.sklearn.save_model(
-        # YOUR CODE HERE
-        signature = signature,
-        input_example = X_train.iloc[:5]
-    )
+    # YOUR CODE HERE
     ######################################
-
+    mlflow.sklearn.save_model(
+    sk_pipe, 
+    "random_forest_dir",  
+    #signature=signature,  
+    input_example=X_train.iloc[:5]
+)
 
     # Upload the model we just exported to W&B
     artifact = wandb.Artifact(
         args.output_artifact,
         type = 'model_export',
-        description = 'Trained ranfom forest artifact',
+        description = 'Trained random forest artifact',
         metadata = rf_config
     )
     artifact.add_dir('random_forest_dir')
@@ -123,7 +124,9 @@ def go(args):
     # Now save the variable mae under the key "mae".
     # YOUR CODE HERE
     ######################################
-
+    run.summary['mae'] = mae
+    #mae = mean_absolute_error(true_values, predictions)
+    #run.summary['absolute_error'] = mean_absolute_error
     # Upload to W&B the feture importance visualization
     run.log(
         {
@@ -164,8 +167,16 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # 1 - A SimpleImputer(strategy="most_frequent") to impute missing values
     # 2 - A OneHotEncoder() step to encode the variable
     non_ordinal_categorical_preproc = make_pipeline(
-        # YOUR CODE HERE
+        SimpleImputer(strategy="most_frequent"),
+        OneHotEncoder(handle_unknown='ignore')
     )
+        # YOUR CODE HERE
+    #sk_pipe = Pipeline(
+        #steps=[
+           # ('imputer', SimpleImputer(strategy="most_frequent")),  # Step 1: Impute missing values
+            #('encoder', OneHotEncoder(handle_unknown='ignore'))  # Step 2: Encode categorical variables
+       # ]
+   # )
     ######################################
 
     # Let's impute the numerical columns to make sure we can handle missing values
@@ -224,10 +235,11 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # 1 - a step called "preprocessor" applying the ColumnTransformer instance that we saved in the `preprocessor` variable
     # 2 - a step called "random_forest" with the random forest instance that we just saved in the `random_forest` variable.
     # HINT: Use the explicit Pipeline constructor so you can assign the names to the steps, do not use make_pipeline
-
+        #YYOUR CODE HERE
     sk_pipe = Pipeline(
         steps =[
-        # YOUR CODE HERE
+            ('preprocessor', preprocessor),  # Step 1: Preprocessor
+            ('random_forest', random_forest)  # Step 2: Random Forest model
         ]
     )
 

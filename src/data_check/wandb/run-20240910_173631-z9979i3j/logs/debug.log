@@ -1,0 +1,15 @@
+2024-09-10 17:36:31,965 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Configure stats pid to 84686
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Loading settings from /home/jkeane7/.config/wandb/settings
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Loading settings from /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-10 17:36:31,966 WARNING MainThread:84686 [wandb_setup.py:_flush():76] Could not save program above cwd: /home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest', 'program': '/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest'}
+2024-09-10 17:36:31,966 INFO    MainThread:84686 [wandb_init.py:_log_setup():524] Logging user logs to /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240910_173631-z9979i3j/logs/debug.log
+2024-09-10 17:36:31,967 INFO    MainThread:84686 [wandb_init.py:_log_setup():525] Logging internal logs to /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240910_173631-z9979i3j/logs/debug-internal.log
+2024-09-10 17:36:31,967 INFO    MainThread:84686 [wandb_init.py:init():564] calling init triggers
+2024-09-10 17:36:31,967 INFO    MainThread:84686 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-09-10 17:36:31,967 INFO    MainThread:84686 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2024-09-10 17:36:35,766 WARNING MsgRouterThr:84686 [router.py:message_loop():77] message_loop has been closed

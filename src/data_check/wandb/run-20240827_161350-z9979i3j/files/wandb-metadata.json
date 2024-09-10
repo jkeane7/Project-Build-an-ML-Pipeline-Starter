@@ -1,0 +1,132 @@
+{
+    "os": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.0",
+    "heartbeatAt": "2024-08-27T20:13:51.188663",
+    "startedAt": "2024-08-27T20:13:50.347725",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/jkeane7/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "0936351046db1e8e7587aa16f516b26a9374b3da"
+    },
+    "email": "jkeane7@wgu.edu",
+    "root": "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter",
+    "host": "LAPTOP-T0MRC780",
+    "username": "jkeane7",
+    "executable": "/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1796.535,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1796.535,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 14.366107940673828
+        }
+    },
+    "memory": {
+        "total": 4.728851318359375
+    }
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/20f226df98524a648adf7c3c892e1460/artifacts
+end_time: 1726004043672
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 20f226df98524a648adf7c3c892e1460
+run_name: rumbling-rook-17
+run_uuid: 20f226df98524a648adf7c3c892e1460
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726003970638
+status: 3
+tags: []
+user_id: jkeane7

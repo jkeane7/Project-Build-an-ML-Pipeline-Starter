@@ -1,0 +1,10 @@
+2024-08-28 17:11:49,524 Minimum price: 10, Maximum price: 350
+2024-08-28 17:11:49,552 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 301, in <module>
+    go(args)
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 69, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/home/jkeane7/Project-Build-an-ML-Pipeline-Starter/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 173, in get_inference_pipeline
+    ('encoder', OneHotEncoder(handle_unknown='ignore'))  # Step 2: Encode categorical variables
+NameError: name 'OneHotEncoder' is not defined

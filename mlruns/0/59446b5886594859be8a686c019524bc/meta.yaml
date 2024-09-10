@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/59446b5886594859be8a686c019524bc/artifacts
+end_time: 1726004196743
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59446b5886594859be8a686c019524bc
+run_name: serious-skink-294
+run_uuid: 59446b5886594859be8a686c019524bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726004182552
+status: 3
+tags: []
+user_id: jkeane7

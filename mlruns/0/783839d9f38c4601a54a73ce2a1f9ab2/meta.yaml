@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/783839d9f38c4601a54a73ce2a1f9ab2/artifacts
+end_time: 1726004290235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 783839d9f38c4601a54a73ce2a1f9ab2
+run_name: auspicious-newt-267
+run_uuid: 783839d9f38c4601a54a73ce2a1f9ab2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726004221412
+status: 3
+tags: []
+user_id: jkeane7

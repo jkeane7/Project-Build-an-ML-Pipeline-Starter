@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5553d703a70340bba1dc628599a0cc10/artifacts
+end_time: 1726004221385
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5553d703a70340bba1dc628599a0cc10
+run_name: amazing-dog-50
+run_uuid: 5553d703a70340bba1dc628599a0cc10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726004198939
+status: 3
+tags: []
+user_id: jkeane7

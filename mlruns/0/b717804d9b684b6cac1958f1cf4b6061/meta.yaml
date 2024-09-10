@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b717804d9b684b6cac1958f1cf4b6061/artifacts
+end_time: 1726003821305
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b717804d9b684b6cac1958f1cf4b6061
+run_name: adaptable-shrike-249
+run_uuid: b717804d9b684b6cac1958f1cf4b6061
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726003805840
+status: 3
+tags: []
+user_id: jkeane7

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/465a0ffe424048798972197a9b7fc605/artifacts
+end_time: 1726003805696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 465a0ffe424048798972197a9b7fc605
+run_name: glamorous-whale-221
+run_uuid: 465a0ffe424048798972197a9b7fc605
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726003612373
+status: 3
+tags: []
+user_id: jkeane7
