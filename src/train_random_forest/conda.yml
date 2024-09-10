@@ -3,12 +3,20 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+<<<<<<< HEAD
   - python=3.9
+=======
+  - python=3.10
+>>>>>>> 1e77042edab3699d34e71c3fd4380d5d780b5b29
   - hydra-core=1.3.2
   - matplotlib=3.8.2
   - pandas=2.1.3
   - pip=23.3.1
+<<<<<<< HEAD
   - scikit-learn=0.24.1
+=======
+  - scikit-learn=1.3.2
+>>>>>>> 1e77042edab3699d34e71c3fd4380d5d780b5b29
   - pip:
       - mlflow==2.8.1
       - wandb==0.16.0
