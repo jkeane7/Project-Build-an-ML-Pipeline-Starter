@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e8d4e0f73234424ea6559c47c54a40bf/artifacts
+end_time: 1726005815243
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8d4e0f73234424ea6559c47c54a40bf
+run_name: stately-bird-846
+run_uuid: e8d4e0f73234424ea6559c47c54a40bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726005790153
+status: 3
+tags: []
+user_id: jkeane7

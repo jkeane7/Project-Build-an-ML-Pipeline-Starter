@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/59426b45f4954c31b1b32dac60a272c2/artifacts
+end_time: 1726005398375
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59426b45f4954c31b1b32dac60a272c2
+run_name: popular-flea-112
+run_uuid: 59426b45f4954c31b1b32dac60a272c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726005379685
+status: 3
+tags: []
+user_id: jkeane7

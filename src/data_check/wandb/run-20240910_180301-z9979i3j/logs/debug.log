@@ -1,0 +1,44 @@
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Configure stats pid to 94116
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Loading settings from /home/jkeane7/.config/wandb/settings
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Loading settings from /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-10 18:03:01,272 WARNING MainThread:94116 [wandb_setup.py:_flush():76] Could not save program above cwd: /home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest', 'program': '/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest'}
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_init.py:_log_setup():524] Logging user logs to /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240910_180301-z9979i3j/logs/debug.log
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_init.py:_log_setup():525] Logging internal logs to /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240910_180301-z9979i3j/logs/debug-internal.log
+2024-09-10 18:03:01,272 INFO    MainThread:94116 [wandb_init.py:init():564] calling init triggers
+2024-09-10 18:03:01,273 INFO    MainThread:94116 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-09-10 18:03:01,273 INFO    MainThread:94116 [wandb_init.py:init():614] starting backend
+2024-09-10 18:03:01,273 INFO    MainThread:94116 [wandb_init.py:init():618] setting up manager
+2024-09-10 18:03:01,274 INFO    MainThread:94116 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-09-10 18:03:01,278 INFO    MainThread:94116 [wandb_init.py:init():624] backend started and connected
+2024-09-10 18:03:01,281 INFO    MainThread:94116 [wandb_init.py:init():716] updated telemetry
+2024-09-10 18:03:01,298 INFO    MainThread:94116 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-09-10 18:03:01,911 INFO    MainThread:94116 [wandb_init.py:init():792] run resumed
+2024-09-10 18:03:01,932 INFO    MainThread:94116 [wandb_run.py:_on_init():2254] communicating current version
+2024-09-10 18:03:02,145 INFO    MainThread:94116 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.17.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-10 18:03:02,145 INFO    MainThread:94116 [wandb_init.py:init():800] starting run threads in backend
+2024-09-10 18:03:02,188 INFO    MainThread:94116 [wandb_run.py:_console_start():2233] atexit reg
+2024-09-10 18:03:02,188 INFO    MainThread:94116 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-09-10 18:03:02,189 INFO    MainThread:94116 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-09-10 18:03:02,189 INFO    MainThread:94116 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-09-10 18:03:02,189 INFO    MainThread:94116 [wandb_init.py:init():841] run started, returning control to user process
+2024-09-10 18:03:03,422 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-09-10 18:03:03,423 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Configure stats pid to 94116
+2024-09-10 18:03:03,423 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Loading settings from /home/jkeane7/.config/wandb/settings
+2024-09-10 18:03:03,423 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Loading settings from /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-09-10 18:03:03,423 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-09-10 18:03:03,423 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-10 18:03:03,423 WARNING MainThread:94116 [wandb_setup.py:_flush():76] Could not save program above cwd: /home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest
+2024-09-10 18:03:03,423 INFO    MainThread:94116 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest', 'program': '/home/jkeane7/miniconda3/envs/mlflow-648c329c5ec95c24c9ec3d92b683872d16e43ecc/bin/pytest'}
+2024-09-10 18:03:03,424 INFO    MainThread:94116 [wandb_init.py:_log_setup():524] Logging user logs to /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240910_180303-z9979i3j/logs/debug.log
+2024-09-10 18:03:03,424 INFO    MainThread:94116 [wandb_init.py:_log_setup():525] Logging internal logs to /home/jkeane7/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240910_180303-z9979i3j/logs/debug-internal.log
+2024-09-10 18:03:03,424 INFO    MainThread:94116 [wandb_init.py:init():564] calling init triggers
+2024-09-10 18:03:03,424 INFO    MainThread:94116 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-09-10 18:03:03,424 INFO    MainThread:94116 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2024-09-10 18:03:07,247 WARNING MsgRouterThr:94116 [router.py:message_loop():77] message_loop has been closed

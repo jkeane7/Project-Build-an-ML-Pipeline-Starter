@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eaedee80755646daa2c90b7688f74346/artifacts
+end_time: 1726005788075
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eaedee80755646daa2c90b7688f74346
+run_name: monumental-owl-824
+run_uuid: eaedee80755646daa2c90b7688f74346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726005772770
+status: 3
+tags: []
+user_id: jkeane7

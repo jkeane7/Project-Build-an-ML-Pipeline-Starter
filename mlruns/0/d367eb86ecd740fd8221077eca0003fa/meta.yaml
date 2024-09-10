@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d367eb86ecd740fd8221077eca0003fa/artifacts
+end_time: 1726005760799
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d367eb86ecd740fd8221077eca0003fa
+run_name: intrigued-ray-472
+run_uuid: d367eb86ecd740fd8221077eca0003fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726005741805
+status: 3
+tags: []
+user_id: jkeane7
