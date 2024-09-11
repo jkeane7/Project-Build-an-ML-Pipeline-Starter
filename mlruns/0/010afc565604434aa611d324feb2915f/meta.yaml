@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/010afc565604434aa611d324feb2915f/artifacts
+end_time: 1726089400935
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 010afc565604434aa611d324feb2915f
+run_name: redolent-eel-308
+run_uuid: 010afc565604434aa611d324feb2915f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726089366530
+status: 3
+tags: []
+user_id: jkeane7

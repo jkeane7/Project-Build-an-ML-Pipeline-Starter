@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1b558090a8e34411948974be70439b2d/artifacts
+end_time: 1726089571862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b558090a8e34411948974be70439b2d
+run_name: beautiful-bee-993
+run_uuid: 1b558090a8e34411948974be70439b2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726089274689
+status: 3
+tags: []
+user_id: jkeane7

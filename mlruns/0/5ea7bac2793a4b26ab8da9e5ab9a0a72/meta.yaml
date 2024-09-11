@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5ea7bac2793a4b26ab8da9e5ab9a0a72/artifacts
+end_time: 1726089345146
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ea7bac2793a4b26ab8da9e5ab9a0a72
+run_name: exultant-perch-561
+run_uuid: 5ea7bac2793a4b26ab8da9e5ab9a0a72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726089321635
+status: 3
+tags: []
+user_id: jkeane7

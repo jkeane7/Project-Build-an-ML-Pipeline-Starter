@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5e760478e85549da80bb73d97813f54f/artifacts
+end_time: 1726089570384
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e760478e85549da80bb73d97813f54f
+run_name: auspicious-crane-4
+run_uuid: 5e760478e85549da80bb73d97813f54f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726089400963
+status: 3
+tags: []
+user_id: jkeane7

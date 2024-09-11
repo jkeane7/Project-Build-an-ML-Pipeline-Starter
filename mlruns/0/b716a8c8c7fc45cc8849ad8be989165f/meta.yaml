@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b716a8c8c7fc45cc8849ad8be989165f/artifacts
+end_time: 1726089321608
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b716a8c8c7fc45cc8849ad8be989165f
+run_name: skittish-shrimp-122
+run_uuid: b716a8c8c7fc45cc8849ad8be989165f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726089287258
+status: 3
+tags: []
+user_id: jkeane7

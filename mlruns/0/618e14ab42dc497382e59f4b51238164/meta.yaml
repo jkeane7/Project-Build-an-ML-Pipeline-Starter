@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jkeane7/Project-Build-an-ML-Pipeline-Starter/mlruns/0/618e14ab42dc497382e59f4b51238164/artifacts
+end_time: 1726089364551
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 618e14ab42dc497382e59f4b51238164
+run_name: fearless-bird-535
+run_uuid: 618e14ab42dc497382e59f4b51238164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726089345183
+status: 3
+tags: []
+user_id: jkeane7
