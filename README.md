@@ -152,3 +152,4 @@ This will iterate over all the environments created by `mlflow` and remove them.
 [License](LICENSE.txt)
 
 W&B link to Project https://wandb.ai/jkeane/nyc_airbnb
+Github link: https://github.com/jkeane7/Project-Build-an-ML-Pipeline-Starter/edit/main/
